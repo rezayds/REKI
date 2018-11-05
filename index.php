@@ -21,7 +21,7 @@
                     <img src="assets/images/logo.png" id="nav-img">
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+                    <li><a href="https://github.com/rezayds/REKI"><i class="fab fa-github-square"></i></a></li>
                 </ul>
             </div>
         </nav>

@@ -1,7 +1,7 @@
 <?php  
 
 $mov = strtolower(str_replace(" ","+",$_POST['movie']));
-$url = "https://tastedive.com/api/similar?q=".$mov."&k=318683-LineChat-LBL2ECVS&info=1&limit=6";
+$url = "https://tastedive.com/api/similar?q=".$mov."&k=YOUR-API&info=1&limit=6";
 $json = file_get_contents($url);
 $data = json_decode($json, TRUE);
 
@@ -30,7 +30,7 @@ $data = json_decode($json, TRUE);
                     <img src="assets/images/logo.png" id="nav-img">
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+                    <li><a href="https://github.com/rezayds/REKI"><i class="fab fa-github-square"></i></a></li>
                 </ul>
             </div>
         </nav>
